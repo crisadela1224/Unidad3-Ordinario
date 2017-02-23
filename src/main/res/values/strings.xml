@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Orders</string>
+    <string name="type_product_name">Type product name</string>
+    <string name="type_price_of_product">Type price of product</string>
+    <string name="save_product">Save product</string>
+    <string name="type_stock_product">Type stock product</string>
+    <string name="topic_subject">Topic Subject</string>
+    <string name="topic_date">Topic Date</string>
+    <string name="save_topic">Save Topic</string>
+</resources>

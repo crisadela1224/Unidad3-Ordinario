@@ -1,0 +1,55 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv_topic">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/iv_topic"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_topic_subject"
+            android:layout_toRightOf="@id/iv_topic"
+            android:textSize="15pt"
+            android:text="@string/topic_subject"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_topic_date"
+            android:layout_toRightOf="@id/iv_topic"
+            android:layout_below="@+id/tv_topic_subject"
+            android:text="@string/topic_date"
+            android:textSize="10pt"
+
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_edit_topic"
+            android:src="@android:drawable/ic_menu_edit"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_topic_subject"
+            android:layout_toEndOf="@+id/tv_topic_subject" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_delete_topic"
+            android:layout_below="@id/bt_edit_topic"
+            android:layout_toRightOf="@+id/tv_topic_subject"
+            android:src="@android:drawable/ic_menu_delete"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
